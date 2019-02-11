@@ -1,0 +1,86 @@
+
+
+
+
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Style de la column du tigre */
+.col-tigre {
+    min-height: 560px;
+    background-color: #57BCB8;
+}
+
+/* Style de la column du singe */
+.col-singe {
+    min-height: 560px;
+    background-color: #F0B92A;
+}
+
+/* Style de la column facebook */
+.col-facebook {
+    min-height: 560px;
+    background-color: #125FA4;
+}
+
+/* Style de la column de la giraffe */
+.col-giraffe {
+    min-height: 560px;
+    background-color: #C3B0D1;
+}
+
+/* Style de la column du pingouin */
+.col-pingouin {
+    min-height: 560px;
+    background-color: #96B241;
+}
+
+/* Style de la column de l'oiseau */
+.col-oiseau {
+    min-height: 560px;
+    background-color: #1072B3;
+}
+
+/* Style Row 1 du footer */
+.row-first-footer {
+    min-height: 250px;
+    color: #fff;
+    background-color: #2A2929;
+}
+
+.padding-first-footer {
+    margin-top: 10px;
+}
+
+/* Style Row 2 du footer */
+.row-last-footer {
+    min-height: 40px;
+    color: #2A2929;
+    background-color: #F0B92A;
+}
+
+.row-last-footer a {
+    text-decoration: none;
+    color: #2A2929;
+}
+
+.row-last-footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.row-last-footer a.footer-link-margin {
+    margin-right: 20px;
+}
+
+.copyright-link {
+    min-height: 40px;
+    line-height: 40px;
+}
+
+.social-media {
+    min-height: 40px;
+    line-height: 40px;
+}

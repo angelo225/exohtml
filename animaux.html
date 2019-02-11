@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Site web du Zoo International d'Abidjan">
+        <meta name="author" content="OYENIYI SUNDAY">
+        
+        <title>Les Animaux - Zoo International d'Abidjan</title>
+        
+        <!-- Ajout du fichier de style de bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+        <!-- Ajout du fichier de style fontAwesome -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+        
+        <!-- AJout du fichier de style Animate -->
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <!-- Ajout du fichier de style fancyBox -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        
+        <!-- Ajout du fichier de style du site -->
+        <link rel="stylesheet" href="css/base.css">
+        
+        <!-- Ajout du code JS pour supporter les anciennes versions d'Internet Explorer -->
+        <!-- [if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body>
+        
+        <!-- Menu navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Style d'affichage du menu pour le mobile & tablet -->
+                <div class="navbar-header">
+                    <button type="button"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img alt="logo zia" src="img/logo_header.png" style="max-height: 50px;">
+                    </a>
+                </div>
+                <!-- Menu horizontal avec les liens de page -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">ACCUEIL</a>
+                        </li>
+                        <li class="active">
+                            <a href="animaux.html">LES ANIMAUX</a>
+                        </li>
+                        <li>
+                            <a href="visite.html">VOTRE VISITE</a>
+                        </li>
+                        <li>
+                            <a href="zoo.html">LE ZOO</a>
+                        </li>
+                        <li>
+                            <a href="actualites.html">ACTUALITES</a>
+                        </li>
+                       <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /. navigation-->
+            </div>
+            <!-- /. container -->
+        </nav>
+        <!-- /. Menu navigation -->
+        
+        <!-- header -->
+        <header class="intro-header" style="background-image: url('img/bg_image_animaux.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="site-heading">
+                            <h1>ANIMAUX</h1>
+                            <hr class="small">
+                            <span class="subheading">ILS VOUS ATTENDENT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /. header -->
+        
+        <!-- Gallery d'image avec filtre -->
+        
+        <section class="filter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                    
+                        <h2> PLUS DE 30 ESPECES ET ANIMAUX </h2>
+                        
+                        <hr class="content">
+                   
+                        <div class="filter-container isotopeFilters">
+                            <ul class="list-inline filter">
+                                <li class="active"><a href="#" data-filter="*">TOUS </a><span>/</span></li>
+                                <li><a href="#" data-filter=".mamifere">MAMIFERES</a><span>/</span></li>
+                                <li><a href="#" data-filter=".oiseau">OISEAUX</a><span>/</span></li>
+                                <li><a href="#" data-filter=".reptile">REPTILES</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="portfolio-section port-col">
+            <div class="container">
+                <div class="row isotopeContainer">
+                    
+                    <!-- Rangee 1 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/Amazone-a-front-bleu1.jpg" alt="Amazone a front bleu">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Amazone a front bleu" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/Amazone-a-front-bleu1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">AMAZONE BLEU</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/Alpaga-centralea.jpg" alt="Alpaga">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Alpaga" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/Alpaga-centralea.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ALPAGA</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/Ara-ararauna1.jpg" alt="Ara ararauna">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Ara ararauna" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/Ara-ararauna1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ARA ARARAUNA</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/ane-de-somalie-450x4501.jpg" alt="Ane de somalie">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Ane de somalie" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/ane-de-somalie-450x4501.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ANE DE SOMALIE</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 1 -->
+                    
+                    <!-- Rangee 2 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/Antilope-cervicapre1.jpg" alt="Antilope cervicapre">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Antilope cervicapre" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/Antilope-cervicapre1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ANTILOPE CERVICAPRE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/anaconda-vert-570x570.jpg" alt="Anaconda vert">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Anaconda vert" class="fancybox-pop" rel="portfolio-1" href="img/reptile/anaconda-vert-570x570.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ANACONDA VERT</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/bison1.jpg" alt="Bison d'amerique">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Bison d'amerique" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/bison1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">BISON D’AMERIQUE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/crocodile-du-nil1.jpg" alt="Crocodile du nil">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Crocodile du nil" class="fancybox-pop" rel="portfolio-1" href="img/reptile/crocodile-du-nil1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">CROCODILE DU NIL</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 2 -->
+                    
+                    <!-- Rangee 3 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/Ara-chloroptere.jpg" alt="Ara chloroptere">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Ara chloroptere" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/Ara-chloroptere.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ARA CHLOROPTÈRE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/tortue-d-hermann1.jpg" alt="Torture d'hermann">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Torture d'hermann" class="fancybox-pop" rel="portfolio-1" href="img/reptile/tortue-d-hermann1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">TORTUE D’HERMANN</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/autruches.jpg" alt="Autruche">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Autruche" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/autruches.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">AUTRUCHE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/tortue_hargneuse_2.jpg" alt="Tortue hargneuse">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Tortue hargneuse" class="fancybox-pop" rel="portfolio-1" href="img/reptile/tortue_hargneuse_2.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">TORTUE HARGNEUSE</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 3 -->
+                    
+                    <!-- Rangee 4 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/Emeu1.jpg" alt="Emeu">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Emeu" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/Emeu1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">EMEU</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/ibis-rouge-carre.jpg" alt="Ibis rouge">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Ibis rouge" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/ibis-rouge-carre.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">IBIS ROUGE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/vautour-africain1.jpg" alt="Vautour africain">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Vautour africain" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/vautour-africain1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">VAUTOUR AFRICAIN</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector oiseau">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/oiseau/perroquet-gris_2.jpg" alt="Peroquet gris d'afrique">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Peroquet gris d'afrique" class="fancybox-pop" rel="portfolio-1" href="img/oiseau/perroquet-gris_2.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">PERROQUET GRIS</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 4-->
+                    
+                    <!-- Rangee 5 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/rhino.jpg" alt="Rhinoceros blanc">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Rhinoceros blanc" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/rhino.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">RHINOCEROS BLANC</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/Alpaga-centralea.jpg" alt="Alpaga">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Alpaga" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/Alpaga-centralea.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ALPAGA</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/elephant1.jpg" alt="Elephant">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Elephant" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/elephant1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">ELEPHANT</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector mamifere">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/mamifere/portrait-guepard.jpg" alt="Guepard">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Guepard" class="fancybox-pop" rel="portfolio-1" href="img/mamifere/portrait-guepard.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">GUEPARD</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 5 -->
+                    
+                    <!-- Rangee 6 -->
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/python_reticule_2.jpg" alt="Python reticule">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Python reticule" class="fancybox-pop" rel="portfolio-1" href="img/reptile/python_reticule_2.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">PYTHON RETICULE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/caiman1.jpg" alt="Caiman a lunettes">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Caiman a lunettes" class="fancybox-pop" rel="portfolio-1" href="img/reptile/caiman1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">CAIMAN A LUNETTES</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/tortue-grecque1-300x300.jpg" alt="Tortue grecque">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Tortue grecque" class="fancybox-pop" rel="portfolio-1" href="img/reptile/tortue-grecque1-300x300.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">TORTUE GRECQUE</a></div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-12 isotopeSelector reptile">
+                        <article class="">
+                            <figure>
+                                <img class="img-responsive" src="img/reptile/boa-constrictor1.jpg" alt="Boa constrictor">
+                                <div class="overlay-background">
+                                    <div class="inner"></div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="inner-overlay">
+                                        <div class="inner-overlay-content with-icons">
+                                            <a title="Boa constrictor" class="fancybox-pop" rel="portfolio-1" href="img/reptile/boa-constrictor1.jpg"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="article-title"><a href="#">BOA CONSTRICTOR</a></div>
+                        </article>
+                    </div>
+                    <!-- /. Rangee 6 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row footer-info">
+                    <div class="col-xs-12 col-sm-3">
+                        <img class="img-responsive center-block" alt="logo du zoo" src="img/logo_footer.png">
+                    </div>
+                    <div class="col-xs-12 col-sm-3 text-center">
+                        <h4 class="title">ZOO INTERNATIONAL D'ABIDJAN</h4>
+                        <p><i class="fa fa-map-pin"></i> Route du Zoo, Abidjan, Côte d'Ivoire</p>
+                        <p><i class="fa fa-phone"></i> (+225) 07 40 16 30</p>
+                        <p><i class="fa fa-envelope"></i> info@zia.ci </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 text-center">
+                        <h4 class="title">LIENS UTILES</h4>
+                        <ul class="list list-unstyled">
+                            <li><a href="index.html">ACCUEIL</a></li>
+                            <li><a href="animaux.html">LES ANIMAUX</a></li>
+                            <li><a href="visite.html">VOTRE VISITE</a></li>
+                            <li><a href="zoo.html">LE ZOO</a></li>
+                            <li><a href="actualites.html">ACTUALITES</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 text-center">
+                        <h4 class="title">NEWSLETTER</h4>
+                        
+                        <p>Abonnez-vous à notre newsletter et restez à l'écoute.</p>
+                        
+                        <form action="" method="post" role="form">
+                            <div class="input-group">
+                              <span class="input-group-addon">
+                                <i class="fa fa-envelope"></i>
+                              </span>
+                              <input class="form-control" type="text" id="" name="" placeholder="nom@email.com">
+                            </div>
+                            <div class="pull-right">
+                                <input type="submit" value="S'inscrire" class="btn btn-large btn-primary" style="margin-top: 15px;">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="col-xs-6">
+                        <div class="pull-left">
+                            <span>Copyright &copy; 2017 ZIA</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="pull-right">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /. footer -->
+           
+        
+        <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
